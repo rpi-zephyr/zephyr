@@ -1,5 +1,5 @@
 # Copyright 2024 Junho Lee <junho@tsnlab.com>
 # SPDX-License-Identifier: Apache-2.0
 
-config BOARD_RPI_5
+config BOARD_RPI_5_NG
 	select SOC_BCM2712

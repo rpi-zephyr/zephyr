@@ -1,5 +1,5 @@
-identifier: rpi_5
-name: Raspberry Pi 5
+identifier: rpi_5_ng
+name: Raspberry Pi 5 NG
 type: mcu
 arch: arm64
 toolchain:

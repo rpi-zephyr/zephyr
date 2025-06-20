@@ -1,4 +1,4 @@
-.. zephyr:board:: rpi_5
+.. zephyr:board:: rpi_5_ng
 
 Overview
 ********
@@ -110,7 +110,7 @@ Build an app, for example :zephyr:code-sample:`hello_world`:
 
 .. zephyr-app-commands::
    :zephyr-app: samples/hello_world
-   :board: rpi_5
+   :board: rpi_5_ng
    :goals: build
 
 Copy :file:`zephyr.bin` from :file:`build/zephyr` directory to the root directory of the Micro SD card.
