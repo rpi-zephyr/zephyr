@@ -1,0 +1,10 @@
+manifest:
+  remotes:
+    - name: rpi
+      url-base: https://github.com/rpi-zephyr
+  # zephyr-keep-sorted-start re(^\s+\- name:)
+  projects:
+    - name: trusted-firmware-a
+      remote: rpi
+      revision: develop
+      path: modules/tee/tf-a/trusted-firmware-a
