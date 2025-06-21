@@ -8,3 +8,7 @@ manifest:
       remote: rpi
       revision: develop
       path: modules/tee/tf-a/trusted-firmware-a
+    - name: u-boot
+      remote: rpi
+      revision: develop
+      path: bootloader/u-boot

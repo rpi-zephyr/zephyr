@@ -1,0 +1,10 @@
+# SPDX-License-Identifier: Apache-2.0
+
+config ZEPHYR_UBOOT_MODULE
+	bool
+
+menuconfig BUILD_WITH_UBOOT
+	bool "Build with u-boot"
+	help
+	  When enabled, this option instructs the Zephyr build process to
+	  additionally generate a u-boot image.
